@@ -1,0 +1,190 @@
+------------------- Subtask-1-----------------------
+------------Validate response for : /posts---------------
+Status code : 200
+Total resource count : 100
+------------Validate response for : /comments---------------
+Status code : 200
+Total resource count : 500
+------------Validate response for : /albums---------------
+Status code : 200
+Total resource count : 100
+------------Validate response for : /photos---------------
+Status code : 200
+Total resource count : 5000
+------------Validate response for : /todos---------------
+Status code : 200
+Total resource count : 200
+------------Validate response for : /users---------------
+Status code : 200
+Total resource count : 10
+
+
+------------------- Subtask-2-----------------------
+Resource: /posts/5
+Response Code: 200
+Response Body: {
+  "userId": 1,
+  "id": 5,
+  "title": "nesciunt quas odio",
+  "body": "repudiandae veniam quaerat sunt sed\nalias aut fugiat sit autem sed est\nvoluptatem omnis possimus esse voluptatibus quis\nest aut tenetur dolor neque"
+}
+----------------------------------------
+Resource: /comments/5
+Response Code: 200
+Response Body: {
+  "postId": 1,
+  "id": 5,
+  "name": "vero eaque aliquid doloribus et culpa",
+  "email": "Hayden@althea.biz",
+  "body": "harum non quasi et ratione\ntempore iure ex voluptates in ratione\nharum architecto fugit inventore cupiditate\nvoluptates magni quo et"
+}
+----------------------------------------
+Resource: /albums/5
+Response Code: 200
+Response Body: {
+  "userId": 1,
+  "id": 5,
+  "title": "eaque aut omnis a"
+}
+----------------------------------------
+Resource: /photos/5
+Response Code: 200
+Response Body: {
+  "albumId": 1,
+  "id": 5,
+  "title": "natus nisi omnis corporis facere molestiae rerum in",
+  "url": "https://via.placeholder.com/600/f66b97",
+  "thumbnailUrl": "https://via.placeholder.com/150/f66b97"
+}
+----------------------------------------
+Resource: /todos/5
+Response Code: 200
+Response Body: {
+  "userId": 1,
+  "id": 5,
+  "title": "laboriosam mollitia et enim quasi adipisci quia provident illum",
+  "completed": false
+}
+----------------------------------------
+Resource: /users/5
+Response Code: 200
+Response Body: {
+  "id": 5,
+  "name": "Chelsey Dietrich",
+  "username": "Kamren",
+  "email": "Lucio_Hettinger@annie.ca",
+  "address": {
+    "street": "Skiles Walks",
+    "suite": "Suite 351",
+    "city": "Roscoeview",
+    "zipcode": "33263",
+    "geo": {
+      "lat": "-31.8129",
+      "lng": "62.5342"
+    }
+  },
+  "phone": "(254)954-1289",
+  "website": "demarco.info",
+  "company": {
+    "name": "Keebler LLC",
+    "catchPhrase": "User-centric fault-tolerant solution",
+    "bs": "revolutionize end-to-end systems"
+  }
+}
+----------------------------------------
+Resource: /posts/5
+Response Code: 200
+Response Body: {
+  "id": 5
+}
+----------------------------------------
+Resource: /comments/5
+Response Code: 200
+Response Body: {
+  "id": 5
+}
+----------------------------------------
+Resource: /albums/5
+Response Code: 200
+Response Body: {
+  "id": 5
+}
+----------------------------------------
+Resource: /photos/5
+Response Code: 200
+Response Body: {
+  "id": 5
+}
+----------------------------------------
+Resource: /todos/5
+Response Code: 200
+Response Body: {
+  "id": 5
+}
+----------------------------------------
+Resource: /users/5
+Response Code: 200
+Response Body: {
+  "id": 5
+}
+----------------------------------------
+Resource: /posts/5
+Response Code: 200
+Response Body: {}
+----------------------------------------
+Resource: /comments/5
+Response Code: 200
+Response Body: {}
+----------------------------------------
+Resource: /albums/5
+Response Code: 200
+Response Body: {}
+----------------------------------------
+Resource: /photos/5
+Response Code: 200
+Response Body: {}
+----------------------------------------
+Resource: /todos/5
+Response Code: 200
+Response Body: {}
+----------------------------------------
+Resource: /users/5
+Response Code: 200
+Response Body: {}
+----------------------------------------
+Resource: /posts
+Response Code: 201
+Response Body: {
+  "id": 101
+}
+----------------------------------------
+Resource: /comments
+Response Code: 201
+Response Body: {
+  "id": 501
+}
+----------------------------------------
+Resource: /albums
+Response Code: 201
+Response Body: {
+  "id": 101
+}
+----------------------------------------
+Resource: /photos
+Response Code: 201
+Response Body: {
+  "id": 5001
+}
+----------------------------------------
+Resource: /todos
+Response Code: 201
+Response Body: {
+  "id": 201
+}
+----------------------------------------
+Resource: /users
+Response Code: 201
+Response Body: {
+  "id": 11
+}
+----------------------------------------
